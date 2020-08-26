@@ -3,7 +3,7 @@
 config = require("config")  
 local wifiSetup  = require("wifisetup")
 local mqttClient = require("mqttclient")
-local gpioState  = ""
+local gpioState  = "XXXX"
 
 local tSensor    = require("ds18b20")
 
